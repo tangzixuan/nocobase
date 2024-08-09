@@ -78,8 +78,8 @@
   "Set the data scope": "Definir o escopo de dados",
   "Data loading mode": "Modo de carregamento de dados",
   "Set data loading mode": "Definir modo de carregamento de dados",
-  "Automatically load data": "Carregar dados automaticamente",
-  "Load data after filtering": "Carregar dados após filtragem",
+  "Load all data when filter is empty": "Carregar todos os dados quando o filtro estiver vazio",
+  "Do not load data when filter is empty": "Não carregar dados quando o filtro estiver vazio",
   "Data blocks": "Blocos de dados",
   "Filter blocks": "Blocos de filtro",
   "Table": "Tabela",
@@ -739,5 +739,7 @@
   "URL search params": "Parâmetros de pesquisa de URL",
   "Expand All": "Expandir tudo",
   "Parent popup record": "Registro pop-up pai",
-  "Current popup record": "Registro pop-up atual"
+  "Current popup record": "Registro pop-up atual",
+  "Clear default value": "Limpar valor padrão",
+  "Open in new window": "Abrir em nova janela"
 }

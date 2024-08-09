@@ -127,8 +127,8 @@
   "Set the data scope": "設定資料範圍",
   "Data loading mode": "資料加載方式",
   "Set data loading mode": "設定資料加載方式",
-  "Automatically load data": "自動加載資料",
-  "Load data after filtering": "篩選後才加載資料",
+  "Load all data when filter is empty": "當篩選條件為空時加載所有資料",
+  "Do not load data when filter is empty": "當篩選條件為空時不加載資料",
   "Block": "區塊",
   "Data blocks": "資料區塊",
   "Filter blocks": "篩選區塊",
@@ -871,5 +871,7 @@
   "This variable has been deprecated and can be replaced with \"Current form\"": "該變數已被棄用，可以使用“當前表單”作為替代",
   "The value of this variable is derived from the query string of the page URL. This variable can only be used normally when the page has a query string.": "該變數的值來自頁面 URL 的查詢字符串，只有當頁面有查詢字符串時，該變數才能正常使用。",
   "URL search params": "URL 查詢參數",
-  "Expand All": "展開全部"
+  "Expand All": "展開全部",
+  "Clear default value": "清除預設值",
+  "Open in new window": "新窗口打開"
 }

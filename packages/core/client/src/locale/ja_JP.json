@@ -107,8 +107,8 @@
   "Set the data scope": "データ範囲の設定",
   "Data loading mode": "データ読み込みモード",
   "Set data loading mode": "データ読み込みモードの設定",
-  "Automatically load data": "データを自動的に読み込む",
-  "Load data after filtering": "フィルタリング後にデータを読み込む",
+  "Load all data when filter is empty": "フィルターが空の場合、すべてのデータを読み込む",
+  "Do not load data when filter is empty": "フィルターが空の場合、データを読み込まない",
   "Data blocks": "データブロック",
   "Filter blocks": "フィルターブロック",
   "Table OID(Inheritance)": "データテーブルOID(継承)",
@@ -701,5 +701,7 @@
   "This variable has been deprecated and can be replaced with \"Current form\"": "この変数は非推奨です。代わりに「現在のフォーム」を使用してください",
   "The value of this variable is derived from the query string of the page URL. This variable can only be used normally when the page has a query string.": "この変数の値はページURLのクエリ文字列から取得されます。この変数は、ページにクエリ文字列がある場合にのみ正常に使用できます。",
   "URL search params": "URL検索パラメータ",
-  "Expand All": "すべて展開"
+  "Expand All": "すべて展開",
+  "Clear default value": "デフォルト値をクリア",
+  "Open in new window": "新しいウィンドウで開く"
 }

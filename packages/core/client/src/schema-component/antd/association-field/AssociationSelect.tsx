@@ -55,7 +55,7 @@ const InternalAssociationSelect = observer(
     const { objectValue = true, addMode: propsAddMode, ...rest } = props;
     const field: any = useField();
     const fieldSchema = useFieldSchema();
-    const service = useServiceOptions(props);
+    const service = useServiceOptions(fieldSchema?.['x-component-props'] || props);
     const { options: collectionField } = useAssociationFieldContext();
     const initValue = isVariable(props.value) ? undefined : props.value;
     const value = Array.isArray(initValue) ? initValue.filter(Boolean) : initValue;
@@ -127,7 +127,7 @@ const InternalAssociationSelect = observer(
     };
     return (
       <div key={fieldSchema.name}>
-        <Space.Compact style={{ display: 'flex', lineHeight: '32px' }}>
+        <Space.Compact style={{ display: 'flex' }}>
           <RemoteSelect
             style={{ width: '100%' }}
             {...rest}
